@@ -8,3 +8,7 @@
 
 *What is missing to bridge from PoC to MVP?*
 
+- POC contains only barcode and text recognition
+- Implemented basic user interactions 
+- Basic UI for displays
+- For an MVP, have a more relevant recommendation algorithm
