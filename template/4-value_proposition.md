@@ -8,7 +8,16 @@
 
 *3. Relevant*
 
-- customer would possibly be users and supermarkets
-    - offer the users the ability to have personalized feeds and meal recommendations
-    - allow supermarkets to promote their products by giving us their barcode database + we can promote them to the user for missing ingredients
-- many students don't cook because they don't know what to cook --> allows to bridge that difficulty
+- customers are individuals who don't know what to cook because of 
+    - budget
+    - health / nutriments wise
+    - leftovers
+
+--> offers the ability to curate meals that answers their concerns and help them eat better
+--> personalized feeds and meal recommendations to discover new ways of eating
+
+- customer are supermarkets
+    - with a growing individuals base, interesting enough to advertise their products in our app
+    - allows supermarkets to have more visibility by adding their recipes and having a verified account 
+    - adding the ability to find the brand near the individuals to help them shop for their meals
+

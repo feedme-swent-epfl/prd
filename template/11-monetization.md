@@ -4,4 +4,8 @@
 
 *Revenue Streams*
 
-- advertisements for high level entities (supermarkets and such)
+- google ads at first
+- once app is scaled enough, two streams
+    - supermarket advertisement / sponsoring
+    - subscription model for most performant recommendation recipe module
+        - including potential extra features i.e some articles about healthy eating, calorie tracker, etc

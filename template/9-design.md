@@ -6,6 +6,10 @@
 
 *If applicable, describe essential screens.*
 
+- kotlin / gradle
+- ipynb to scrape recipes
+- mlkit from google for camera recognition
+
 ## Backend
 
 *Decompose the MVP into functional blocks.*
