@@ -42,5 +42,5 @@ jobs:
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: PRD-PDF
-          path: Group_17.pdf
+          name: Group_17.pdf
+          path: Team_17_prd.pdf
