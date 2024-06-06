@@ -43,4 +43,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: PRD-PDF
-          path: Team_17_prd.pdf
+          path: Group_17.pdf
