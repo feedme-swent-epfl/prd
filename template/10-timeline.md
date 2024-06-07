@@ -7,28 +7,19 @@ Our schedule was seperated in 5 seperate milestones, each having a specific goal
 
 ## Development resouces
 
-The primary cost of development of the product comes from developer cost. We estimate the need to secure 4 months of cash for a 7-person team to meet planned and unplanned scenarios. Realistically, this project would need four full-time developers (two on frontend, two on backend+devops), along with four part time contractors for UI design and Testing. We expect the contractors to contribute a total of 4 person-months each, over the 4-month development + GTM timeframe.
- We overprovision cash for a total of 7 person-months to meet unexpected deviations from our envisioned roadmap.
+The primary cost of development of the product comes from developer cost. We estimate the need to secure 5 months of cash for a 7-person team to meet planned and unplanned scenarios. Realistically, this project would need 4 full-time developers (2 on frontend, 2 on backend+devops), along with 3 part time contractors for UI design and testing. 
+
+We overprovision cash for a total of 7 person-months to meet unexpected deviations from our envisioned roadmap.
+
 | **Function** | **Required person-months** |
 | --- | --- |
-| Frontend Android Developer | 7 |
-| Backend Java Developer | 7 |
-| Backend Compose Multiplatform | 7 |
-| UI/UX Designer | 4 |
-| Software Tester | 4 |
+| Frontend Kotlin/Jetpack Compose Developer | 10 |
+| Backend Kotlin Developer | 5 |
+| Backend Compose Multiplatform | 5 |
+| UI/UX Designer | 5 |
+| Software Tester | 3 |
 | Surplus Cash Reserves | 7 |
 
-## Deployment Resources
-
-We will need upfront capital for the purchase of 2 MacMini so that one can serve as a redundant replica in case of hardware failures. We will have to purchase a paid plan on GPT API since we will be generating huge amounts of traffic that needs to use the API for testing and usage.
-
-| **Item** | **Cost / unit** | **Units** | **Totals** |
-| --- | --- | --- | --- |
-| MacMini | 500 CHF | 2 | 1000 CHF |
-| GPT | 500 CHF | 1 | 500 CHF |
-| Firebase | Free Tier | - | 0 |
-| Google Analytics | Free Tier | - | 0 |
-| TOTAL | 1500 CHF |
 
 ## Execution Roadmap
 
