@@ -14,7 +14,7 @@ We will collect a few statistics for each user including search history, saved r
 
 Finally, the algorithm will use the probability map as well as the similar users' saved and created recipes to give a list of recommended recipes that may please the user.
 
-The Figure 2 in appendix represent the inputs and outpur of our algorithm.
+The Figure 2 in appendix represent the inputs and outputs of our algorithm.
 
 ## Recommending recipe depending on ingredients
 
