@@ -1,5 +1,3 @@
 # Appendix
-
-![Data Model](image.png)
-
-![Recommendation Algorithm](image-1.png)
+Fig.1![Data Model](image.png)
+Fig.2![Recommendation Algorithm](image-1.png)
