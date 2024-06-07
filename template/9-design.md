@@ -20,7 +20,7 @@ We will need to collect and use a wide range of data for our app to function pro
 
 We will use the Firestore Database to store the relevant data using NoSQL. Each component will be stored as a document with the relevant attributes, and we will use the Firebase Realtime Database to store any external media that will need to be linked in the document page. 
 
-Below will be an exhaustive overview of the different repositories, components, and attributes, along with some specifications.
+Below will be an exhaustive overview of the different repositories, components, and attributes, along with some specifications. Also, a diagram will be available in the Appendix showing how each data class is linked with the others.
 
 // TODO JBFKDHFD
 
