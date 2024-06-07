@@ -22,7 +22,137 @@ We will use the Firestore Database to store the relevant data using NoSQL. Each 
 
 Below will be an exhaustive overview of the different repositories, components, and attributes, along with some specifications. Also, a diagram is available in the appendix (Figure 1) showing how each data class is linked with the others.
 
-// TODO
+### Recipe
+
+Purpose: Contains information about various recipes.
+
+Fields:
+
+recipeId (Primary Key): Unique identifier for the recipe.
+
+title: Title of the recipe.
+
+description: Description of the recipe for the thumbnail.
+
+ingredients: List of ingredients with quantity and measure (references IngredientMetaData).
+
+steps: List of steps to prepare the recipe (references Step).
+
+tags: List of tags for the recipe.
+
+rating: Rating of the recipe.
+
+userid: User id of the recipe creator.
+
+imageUrl: Image URL of the recipe.
+
+searchItems: List of search items for the recipe.
+
+comments: List of comments for the recipe.
+
+Notes: Aimed at providing detailed and structured information about recipes, including ingredients, preparation steps, and user interactions like ratings and comments.
+
+### Step
+
+Purpose: Contains information about individual steps in the recipe.
+
+Fields:
+
+stepNumber: Order of the step in the preparation process.
+
+description: Description of the step.
+
+title: Title of the step.
+
+Notes: Aimed at providing clear and sequential instructions for preparing the recipe.
+
+### IngredientMetaData
+
+Purpose: Contains detailed information about the ingredients used in recipes.
+
+Fields:
+
+quantity: Quantity of the ingredient.
+
+measure: Measure unit of the ingredient (references MeasureUnit).
+
+ingredient: Ingredient object.
+
+Notes: Aimed at providing precise information about the ingredients required for the recipe.
+
+### Ingredient
+
+Purpose: Contains detailed information about individual ingredients used in recipes.
+
+Fields:
+
+name: Name of the ingredient.
+
+id (Primary Key): Unique identifier for the ingredient.
+
+vegan: Boolean indicating if the ingredient is vegan.
+
+vegetarian: Boolean indicating if the ingredient is vegetarian.
+
+Notes: Aimed at providing comprehensive information about ingredients, including their dietary properties, to help users make informed choices when selecting or creating recipes.
+
+### Comment
+
+Purpose: Contains information about user comments on recipes.
+
+Fields:
+
+commentId (Primary Key): Unique identifier for the comment.
+
+userId: User ID of the person who made the comment.
+
+recipeId: Recipe ID to which the comment belongs.
+
+photoURL: URL of the photo associated with the comment.
+
+rating: Rating given to the recipe.
+
+title: Title of the comment.
+
+content: Content of the comment.
+
+creationDate: Date when the comment was created.
+
+Notes: Aimed at providing feedback and reviews on recipes, allowing users to share their experiences and rate recipes.
+
+### Profile
+
+Purpose: Manages detailed user-specific data and interactions within the platform, focusing on user profiles, preferences, and activity.
+
+Fields:
+
+id (Primary Key): Unique identifier for the user profile.
+
+name: Name of the user.
+
+username: Username of the user.
+
+email: Email address of the user.
+
+description: Bio or description of the user.
+
+imageUrl: URL of the user's profile image.
+
+followers: List of user IDs following this user.
+
+following: List of user IDs this user is following.
+
+filter: List of allergy settings or other user preferences.
+
+recipeList: List of recipe IDs created by the user.
+
+savedRecipes: List of recipe IDs saved by the user.
+
+commentList: List of comment IDs made by the user.
+
+showDialog: Boolean indicating whether to show or hide pop-up dialogs in the recipe generation process.
+
+Notes: This model ensures that user data is managed with a focus on privacy and user preferences, allowing for a personalized experience while maintaining security and anonymity.
 
 Most of this data is cached at the application level for access during offline mode, especially all saved components by the profile. The database will also be replicated on local media to avoid loss of data and/or for recovery in case of data corruption for example.
 
