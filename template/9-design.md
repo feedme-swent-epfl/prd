@@ -8,7 +8,11 @@ We will use Kotlin only for the Model and ViewModel components, and we will writ
 
 ## Backend
 
-*Decompose the MVP into functional blocks.*
+As mentioned during the frontend presentation, we will implement our application logic using Kotlin, which will handle among other things all transactions with our Firebase Firestore and Database. 
+
+Kotlin will also be used to implement the control logic of our application and thus form the skeleton of our application. We will need to handle timely updates of the cache of the application with the most up-to-date database, and we will need to be extra careful when writing synchronization primitives using Kotlin coroutines to avoid a spinlock that doesn't return or data corruption in out database due to a change occuring by two parties at the same time. 
+
+We will use data scraping to find new recipes and add them to our database. This will be primary used during the MVP development phase to repopulate our database and improve the quality of our recipes. We will use Python and more specifically Jupyter Notebook to handle the scrapping and filtering of the data collected. We will have multiple filtering scripts that will accommodate a number of different recipes format as input and will normalize them to fit well in our database.
 
 ## Data Model
 
@@ -35,6 +39,7 @@ We also plan on hosting our recommendation algorithm and the recognition modules
 Finally, we plan to have local copies in our server of our Firebase and Firestore databases in case any failure or corruption by a write access is done, that we plan to do at 3 to 4 hours intervals.
 
 ## Test Plan
+
 We plan to pursue testing regularly our application using Github Actions workflows to identify early on any possible error or bug that needs to be addressed before pushing our code to our main branch, that should ideally always remain bug-free. However, we will be more exhaustive in our checks and we plan on configuring multiple pipelines instead on having only one containing all our tests. This will help us to identify better and faster where our issue might be and will also help us avoid a very long waiting time during our CI runs and optimize waiting times by re-running failed jobs only.
 
 We plan on testing the frontend using the  AndroidJUnitRunner test runner and the mockk library to check the correct display of information on the screen, and we will implement backend testing by performing resource injection in our pipelines to test our API calls to the ML kit libraries for example or the correct functionality of some ViewModel elements. 
