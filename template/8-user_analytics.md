@@ -27,7 +27,7 @@ The usage metrics, success criterias and the analysis plan will be relevant for 
 - Behavioral tracking via Google Analytics
 - Stability monitoring via Firebase Crashlytics and Apple App Analytics
 
-Once our app scales enough, we plan on using the premium plan of  \textcolor{blue}{\underline{\href{https://www.data.ai/en/product/free-premium/}{data.ai}}} to track all relevant data more efficiently. 
+Once our app scales enough, we plan on using the premium plan of \textcolor{blue}{\underline{\href{https://www.data.ai/en/product/free-premium/}{data.ai}}} to track all relevant data more efficiently. 
 
 ### A/B Testing Ideas
 We plan to take advantage of the beta testing phase to release multiple iterations of the app with minor improvments to the UI to help each customer to enjoy our product. We have identified a few user flows, transitions, and screens we would like to experiment with :
