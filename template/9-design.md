@@ -22,15 +22,9 @@ We will use the Firestore Database to store the relevant data using NoSQL. Each 
 
 Below will be an exhaustive overview of the different repositories, components, and attributes, along with some specifications.
 
-Most of this data is cached at the application level
+// TODO JBFKDHFD
 
-*What data are you collecting / managing?*
-
-*How is it organised?*
-
-*Where is it stored?*
-
-*How is it shared/copied/cached?*
+Most of this data is cached at the application level for access during offline mode, especially all saved components by the profile. The database will also be replicated on local media to avoid loss of data and/or for recovery in case of data corruption for example.
 
 ## Security Considerations
 
