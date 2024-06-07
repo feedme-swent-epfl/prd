@@ -1,16 +1,15 @@
 # Timeline/Resource Planning
 
-*What’s the overall schedule you’re working towards?*
-\
 The MVP development is planned to be executed over a 21-week time period. This includes setup, development, testing, rollout, and feature iteration to find product-market fit. We envision several intermediate milestones that will help us assess our progress with a team of 7 people that dabbled in several roles such as frontend development, backend development, UI/UX designing, and software testing.
 
 Our schedule was seperated in 5 seperate milestones, each having a specific goal to help us work towards developing the best application possible.
 
 *What resources are required?*
 
-
-
-*What are the intermediate milestones?*
+- full-time for 18 weeks, 2 front-end, 2 back-end, 1 full-stack, 2 testing
+    - 18 because we need to develop iOS as well
+- salary for team members, database hosting, sentry, testing tools?
+// TODO
 
 #### Milestone 1:
 Infrastructure and design completion
@@ -84,8 +83,3 @@ Rollout and feature iterations
 | Week 20 | Beta Testing | Initiate marketing, getting users on the app, promptly addressing feedback to gain trust |
 | Week 21 | Full Rollout | Press marketing pedals, offering incentives to join the app |
 
-*List identified sprints*
-
-- full-time for 18 weeks, 2 front-end, 2 back-end, 1 full-stack, 2 testing
-    - 18 because we need to develop iOS as well
-- salary for team members, database hosting, sentry, testing tools?

@@ -20,8 +20,8 @@ The Figure 2 in appendix represent the inputs and outputs of our algorithm.
 
 **Why :**
 
-The FeedMe app flagship functionality is the recommendation of recipes using only available inputted ingredients. Therefore, it is vital to design a pertinent algorithm that recommends those recipes
+The FeedMe app flagship functionality is the recommendation of recipes using only available inputted ingredients. Therefore, it is vital to design a pertinent algorithm that recommends those recipes, taking into account user preferences and ingredients, and which mode he chooses between strict (there needs to be an exact match) or extra (most ingredients of the user combined with other ingredients).
 
 **Implementation :**
 
-We will implement 
+We need to first establish the difference between the strict and extra modes.

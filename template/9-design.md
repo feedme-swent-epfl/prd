@@ -12,7 +12,7 @@ As mentioned during the frontend presentation, we will implement our application
 
 Kotlin will also be used to implement the control logic of our application and thus form the skeleton of our application. We will need to handle timely updates of the cache of the application with the most up-to-date database, and we will need to be extra careful when writing synchronization primitives using Kotlin coroutines to avoid a spinlock that doesn't return or data corruption in out database due to a change occuring by two parties at the same time. 
 
-We will use data scraping to find new recipes and add them to our database. This will be primary used during the MVP development phase to repopulate our database and improve the quality of our recipes. We will use Python and more specifically Jupyter Notebook to handle the scrapping and filtering of the data collected. We will have multiple filtering scripts that will accommodate a number of different recipes format as input and will normalize them to fit well in our database.
+We will use data scraping to find new recipes and add them to our database. This will be primary used during the MVP development phase to repopulate our database and improve the quality of our recipes. We will use Python and more specifically Jupyter Notebook to handle the scrapping and filtering of the data collected. We will have multiple filtering scripts that will accommodate a number of different recipes format as input and will normalize them to fit well in our database. These scripts will be used with the approval of the websites concerned or on open sourced website with high quality recipes.
 
 ## Data Model
 
