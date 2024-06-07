@@ -4,3 +4,4 @@
 
 *Can include mockups, sequence diagrams, etc.*
 
+TODO : architecture diagram, data model
