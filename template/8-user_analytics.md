@@ -32,9 +32,7 @@ Once our app scales enough, we plan on using the premium plan of \textcolor{blue
 ### A/B Testing Ideas
 We plan to take advantage of the beta testing phase to release multiple iterations of the app with minor improvments to the UI to help each customer to enjoy our product. We have identified a few user flows, transitions, and screens we would like to experiment with :
     
-- try different ways of navigating through the app $\\$ $\indent \indent \Rightarrow$ focusing on the user flows of creating a recipe, commenting a recipe, and inputting ingredients
-- multiple layouts for the profile and recipe displays
-- include an aesthetic idle page design for loading or elapsed time operations
-- try both the Android and iOS apps and check if they have a similar feel UI-wise
-
-
+- trying different ways of navigating through the app $\\$ $\indent \indent \Rightarrow$ focusing on the user flows of creating a recipe, commenting a recipe, and inputting ingredients;
+- experimenting with multiple layouts for the profile and recipe displays;
+- including an aesthetic idle page design for loading or elapsed time operations;
+- trying both the Android and iOS apps and check if they have a similar feel UI-wise.
