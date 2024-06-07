@@ -65,21 +65,21 @@ Beta and prelaunch
 - Rollout app for beta testsers
 - Fix bugs found in beta testing
 
-| **Sprint/Week Number** | **Objective** | **Outcomes** |
+| **Sprint Number** | **Objective** | **Outcomes** |
 | --- | --- | --- |
-| Week 13 | Internal Testing & Analytics/Monitoring pipelines | Thorough internal testing, load testing, feedback collection, bug fixing, performance testing |
-| Week 14 | Pre-Launch Preparations | Final bug fixes and optimizations, prepared app store and launch materials. |
-| Week 15-16 | Rollout application for beta testers | Make the application available for beta testers. Fix bugs when found using analytics and feedback |
+| Sprint 13 | Internal Testing & Analytics/Monitoring pipelines | Thorough internal testing, load testing, feedback collection, bug fixing, performance testing |
+| Sprint 14 | Pre-Launch Preparations | Final bug fixes and optimizations, prepared app store and launch materials. |
+| Sprint 15-16 | Rollout application for beta testers | Make the application available for beta testers. Fix bugs when found using analytics and feedback |
 
 
 #### Milestone 5:
 Rollout and feature iterations
 - Rollout app for alpha testers on both android and IOS platforms
 
-| **Sprint/Week Number** | **Objective** | **Outcomes** |
+| **Sprint Number** | **Objective** | **Outcomes** |
 | --- | --- | --- |
-| Weeks 17-18 | Initial Rollout / Alpha Testing | Deployed app to production, monitored app performance, and gathered user analytics/insights and feedback. Active hotfixes as needed. |
-| Week 19 | Feature Iteration 1 | Identifying drop-off points, optimizing user experience, rollout updates, improving UI, possibly |
-| Week 20 | Beta Testing | Initiate marketing, getting users on the app, promptly addressing feedback to gain trust |
-| Week 21 | Full Rollout | Press marketing pedals, offering incentives to join the app |
+| Sprints 17-18 | Initial Rollout / Alpha Testing | Deployed app to production, monitored app performance, and gathered user analytics/insights and feedback. Active hotfixes as needed. |
+| Sprint 19 | Feature Iteration 1 | Identifying drop-off points, optimizing user experience, rollout updates, improving UI, possibly |
+| Sprint 20 | Beta Testing | Initiate marketing, getting users on the app, promptly addressing feedback to gain trust |
+| Sprint 21 | Full Rollout | Press marketing pedals, offering incentives to join the app |
 
