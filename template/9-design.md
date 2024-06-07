@@ -16,6 +16,14 @@ We will use data scraping to find new recipes and add them to our database. This
 
 ## Data Model
 
+We will need to collect and use a wide range of data for our app to function properly. We will need to juggle between the profiles, the recipes, the comments, and the ingredients data. 
+
+We will use the Firestore Database to store the relevant data using NoSQL. Each component will be stored as a document with the relevant attributes, and we will use the Firebase Realtime Database to store any external media that will need to be linked in the document page. 
+
+Below will be an exhaustive overview of the different repositories, components, and attributes, along with some specifications.
+
+Most of this data is cached at the application level
+
 *What data are you collecting / managing?*
 
 *How is it organised?*
